@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: "business-service"
+
+  cloud:
+    consul:
+      host: 172.17.0.2
+      port: 8500
+      discovery:
+        health-check-path: /actuator
+
+server:
+  port: 8081
