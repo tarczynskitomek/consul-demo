@@ -28,3 +28,5 @@ Check Consul's local IP with:
 Open in your favourite browser:
     
      ${consul_ip}:8500
+## Troubleshooting
+- App cannot connect to Consul? Check if Consul's IP set in application.yaml matches the one returned by consul members command
